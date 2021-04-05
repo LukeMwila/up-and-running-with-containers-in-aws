@@ -16,7 +16,7 @@ module "ecs" {
   app_name                        = var.app_name
   app_port                        = var.app_port
   app_count                       = 2
-  app_image                       = "776008521384.dkr.ecr.eu-west-1.amazonaws.com/lukefmwila/express-test:latest"
+  app_image                       = ""
   fargate_cpu                     = 1024
   fargate_memory                  = 2048
   nlb_target_group_arn            = module.vpc.nlb_target_group_arn
