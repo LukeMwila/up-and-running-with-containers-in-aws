@@ -1,0 +1,17 @@
+{
+    "family": "backend",
+    "containerDefinitions": [
+        {
+            "name": "nodejs",
+            "image": "776008521384.dkr.ecr.eu-west-1.amazonaws.com/lukefmwila/express-test",
+            "portMappings": [
+                {
+                    "containerPort": 8080,
+                    "hostPort": 8080
+                }
+            ],
+            "memory": 50,
+            "cpu": 102
+        }
+    ]
+}

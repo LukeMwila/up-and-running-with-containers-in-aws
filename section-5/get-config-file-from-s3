@@ -1,0 +1,4 @@
+#!/bin/bash
+
+yum install -y aws-cli
+aws s3 cp s3://lukondefmwila-ecs-express/ecs.config /etc/ecs/ecs.config
